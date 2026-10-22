@@ -1,0 +1,21 @@
+# Robots.txt for ForestIPTV Free Trial (Production)
+# Website: https://forestiptvfreetrial.online/
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Search Engine Specific
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Host & Sitemap Directives
+Host: https://forestiptvfreetrial.online
+Sitemap: https://forestiptvfreetrial.online/sitemap.xml
