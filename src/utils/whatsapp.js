@@ -4,7 +4,7 @@ import { APP_CONFIG } from './constants';
  * Extracts digits from the phone number for the wa.me link.
  */
 export const getCleanWhatsAppNumber = () => {
-  return APP_CONFIG.whatsappNumber ? APP_CONFIG.whatsappNumber.replace(/[^0-9]/g, '') : '15557894788';
+  return APP_CONFIG.whatsappNumber ? APP_CONFIG.whatsappNumber.replace(/[^0-9]/g, '') : '447848474763';
 };
 
 /**

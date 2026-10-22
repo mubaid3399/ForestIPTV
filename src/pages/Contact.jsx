@@ -211,7 +211,7 @@ export const Contact = () => {
         url: 'https://forestiptvfreetrial.online/contact',
         mainEntity: {
           '@type': 'ContactPoint',
-          telephone: '+1-555-789-4788',
+          telephone: '+44-7848-474763',
           contactType: 'customer service',
           email: 'support@forestiptv.com',
           availableLanguage: ['English', 'Spanish', 'French', 'German', 'Arabic'],
@@ -465,7 +465,7 @@ export const Contact = () => {
                         type="tel"
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                        placeholder="+1 (555) 000-0000"
+                        placeholder="+44 7000 000000"
                         className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200/90 rounded-xl text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:bg-white focus:border-[#0088cc] focus:ring-4 focus:ring-[#0088cc]/10 shadow-xs transition-all"
                       />
                     </div>
